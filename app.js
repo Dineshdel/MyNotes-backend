@@ -1,6 +1,4 @@
 const express = require("express");
-
-// require("./src/db/mongoose.js");
 const mongoose = require("mongoose");
 const noteRouter = require("./src/routers/note-routers.js");
 const userRouter = require("./src/routers/user-routers.js");
